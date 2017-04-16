@@ -1,0 +1,23 @@
+<div class="footer" ng-controller="FooterController">
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>About Bet Sports</th>
+        <th>Games</th>
+        <th>Sponsored Links</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr ng-repeat="footer in footerLinks">
+        <td><a href="{{footer.about.link}}">{{footer.about.heading}}</a></td>
+        <td><a href="{{footer.games.link}}">{{footer.games.heading}}</a></td>
+        <td><a href="{{footer.sponsors.link}}">{{footer.sponsors.heading}}</a></td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</div>

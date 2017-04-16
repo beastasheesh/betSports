@@ -1,0 +1,15 @@
+{
+  "name": "betsports",
+  "version": "1.0.0",
+  "description": "The idea is to provide small details to the fans that's still not available anywhere",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Asheesh Chaudhary",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}

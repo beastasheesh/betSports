@@ -1,0 +1,11 @@
+#header{
+  background: crimson;
+  color: #fff;
+  padding: 10px;
+}
+
+#header h1{
+  font-size: 24px;
+  font-weight: normal;
+  display: inline-block;
+}
